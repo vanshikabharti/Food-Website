@@ -1,0 +1,375 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: #212020;
+    padding: 2vw;
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    box-shadow: -5px 5px 20px black;
+}
+
+header #logo{
+    width: 12vw;
+    height: 10wh;
+}
+
+.upper{
+    color: white;
+    font-family: "verdana";
+}
+
+#contact{
+    margin-left: 10vw;
+}
+
+#mail{
+    margin-left: 2vw;
+}
+#location{
+    margin-left: 2vw;
+}
+
+#login{
+    background-color: #E3D105;
+    color:black;
+    font-family: "verdana";
+    font-size: 15px;
+    width: 5vw;
+    height: 6vh;
+    margin-left: 5vw;
+    border: 0px;
+}
+#register{
+    background-color: transparent;
+    color:white;
+    font-family: "verdana";
+    font-size: 15px;
+    width: 7vw;
+    height: 6vh;
+    margin-left: 1vw;
+    border: 1px solid ; 
+}
+
+#register:hover{
+    background-color: #E3D105;
+    color:black;
+    font-family: "verdana";
+    font-size: 15px;
+    width: 7vw;
+    height: 6vh;
+    margin-left: 1vw;
+    border: 1px solid ; 
+}
+
+#search{
+    font-size: 40px;
+    margin-left: 5vw;
+    margin-top: -1vh;
+}
+
+#menu{
+    width: 3vw;
+    height: 5vh;
+}
+
+#banner_section{
+    width: 100%;
+    height: 100vh;
+    background-color: #212020;
+    
+}
+
+#banner_section{
+    background-color: #212020;
+    border: 1px solid ;
+}
+
+#recipies{
+    width: 100%;
+    height: 50vh;
+    background-color: #212020;
+/*    border-top: 0.2px solid grey;*/
+    box-shadow: -5px 8px 30px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dishes{
+    
+    
+    width: 80%;
+    height: 30vh;
+    
+}
+.background_images_small{
+    opacity: 0.6;
+    z-index: -1;
+    margin-left: -6vw;
+    display: inline-block;
+}
+
+.pera_inline{
+    display: inline-block;
+}
+#second_logo{
+    margin-left: 40vw;
+}
+
+#head{
+    font-family: "verdana";
+    font-size: 50px;
+    margin-left: 30vw;
+}
+
+.info{
+    font-family: "verdana";
+    font-size: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
+}
+#best_food{
+    background-color: #212020;
+    width: 33vw;
+    height: 60vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    display: inline-block;
+    color: white;
+    font-family: "Helvetica";
+    padding: 2vw;
+    font-weight: 50;
+}
+#best_food p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#best_food h2:hover{
+    color: #E3D105;
+}
+
+#best_food_img{
+    width: 25vw;
+    height: 60vh;
+    background-color: #E3D105;
+    margin-left: 50vw;
+    margin-top: -50vh;
+}
+#best_food_img img{
+    width: 20vw;
+    height: 55vh;
+    float: right;
+    overflow: visible;
+    margin-top: 10vh;
+}
+
+#second_logo2{
+    margin-left: 50vw;
+    margin-top: 15vh;
+}
+#head2{
+    font-family: "verdana";
+    font-size: 50px;
+    margin-left: 45vw;
+} 
+#blogs{
+    width: 100%;
+    height: 82vh;
+/*    background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.blog_div{
+    width: 25vw;
+    height: 90%;
+/*    background-color: blue;*/
+    border: 1px solid grey;
+    display: flex;
+    overflow: hidden;
+}
+#left{
+    margin-left: 10vw;
+}
+#right{
+    margin-right: 10vw;
+    
+}
+#blogs div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+/*    align-items: center;*/
+    
+}
+#blogs div div{
+    background-color: transparent;
+    border: 1px solid grey;
+    width: 100%;
+    height: 40vh;
+    box-shadow: 0px -1px 3px  grey;
+}
+.blog_div div h2{
+    font-family: "helvetica";
+    color: #373535;
+}
+.blog_div div p{
+    color: #373535;
+    font-family: "helvetica";
+    margin-left: 1vw;
+    font-size: 20px;
+    opacity: 0.8;
+    margin-right: 1vw;
+}
+#background_img_2{
+    margin-left: -12vw;
+    opacity: 0.6;
+    display: inline-block;
+}
+#our_client{
+/*    margin-top: -50%;*/
+    margin-left: 32%;
+}
+#head2 span{
+    margin-left: -2vw;
+}
+#client_pro{
+    width: 34vw;
+    height: 75vh;
+/*    opacity: 0.8;*/
+    background-color: #373535;
+    margin-left: 34vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+/*    justify-content: center;*/
+    flex-direction: column;
+    
+}
+#client_pro h2{
+    font-family: "helvetica";
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#client_pro p{
+    font-family: "helvetica";
+    color: white;
+    font-size: 20px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    line-height: 30px;
+}
+
+#footer{
+    background-color: #D8B00F;
+    width: 100%;
+    height: 90vh;
+    margin-top: 8vh; 
+    display: flex;
+/*    align-items: center;*/
+    justify-content: center;
+}
+#footer2{
+    font-size: 1.2rem;
+    width: 100%;
+    height: 30%;
+    font-family: "verdana";
+    text-align: center;
+    
+}
+#footer2 p span{
+    color: red;
+    font-size: 25px;
+}
+#contact_details{
+/*    background-color: red;*/
+    width: 30%;
+    height: 70%;
+    margin-top: 10vh;
+    margin-right: 3vw;
+}
+#contact_img{
+/*    background-color: blue;*/
+    width: 50%;
+    height: 60%;
+    margin-top: 10vh;
+}
+#contact_details h2{
+    font-family: "verdana";
+    font-size: 30px;
+}
+#contact_details h2 span{
+    color: white;
+}
+.name{
+    width: 25vw;
+    height: 5vh;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 1.2rem; 
+    margin-top: 3vh;
+}
+#message{
+    height: 15vh;
+}
+#send{
+    width: 10vw;
+    height: 8vh;
+    font-size: 1.2rem;
+    margin-top: 3vh;
+}
+
+@media all and (max-width:1200px){
+    
+    #recipies{
+    width: 100%;
+    height: 30vh;
+}
+
+    #dishes{
+        margin-top: 6vh;    
+    }   
+    #head{
+    margin-left: 20vw;
+    }
+
+}
+
+@media all and (max-width:1000px){
+    
+    #head{
+        margin-left: 10vw;
+    }
+
+#best_food_img{
+    width: 30vw;
+    height: 60vh;
+    background-color: #E3D105;
+    margin-left: 50vw;
+    margin-top: -50vh;
+}
+#best_food_img img{
+    width: 30vw;
+    height: 55vh;
+    float: right;
+    overflow: visible;
+    margin-top: 10vh;
+    margin-right: -10vh;
+    }
+    #head2{
+        margin-left: 40vw;
+} 
+    #contact_img{
+    margin-top: 30vh;
+}
+}
